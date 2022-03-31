@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: orange;
+    --para-color: #555;
+    --heading-color: #444;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+header {
+    height: 40vh;
+    background: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('./images/Rajasthan.jpg') center center/cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 30px 100px;
+}
+
+.contents {
+    padding: 10px 30px;
+    display: flex
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.infos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.infos ul {
+    display: flex;
+    /* flex-direction: column; */
+    list-style: none;
+}
+
+.infos ul li {
+    margin: 0 1rem;
+}
+
+.infos ul li i {
+    padding-right: 6px;
+    color: dodgerblue;
+}
+
+.infos small {
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: rgb(224, 224, 224);
+    margin-top: 10px;
+}
+
+.infos small span {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.infos small:last-child {
+    font-size: 15px;
+}
+
+.cont-heading,
+.img-slider {
+    flex-basis: 50%;
+}
+
+.img-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-heading h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cont-heading p {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+    color: var(--para-color);
+}
+
+.cont-heading span {
+    color: var(--primary-color);
+}
+
+.img-slider {
+    height: 20rem;
+}
+
+.img-slider img {
+    height: 100%;
+}
+
+.cont-heading a {
+    line-height: 6px;
+    color: var(--primary-color);
+    border-bottom: 1px solid orange;
+}
+
+.cont-heading a:hover {
+    color: #ff6612;
+}
+
+.cont-heading a:hover i {
+    transform: translateX(4px);
+    color: #ff6612;
+}
+
+.tour-heading h1 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#tour-places {
+    margin-top: 4rem;
+    background: #f9f8f7;
+    padding: 40px 100px;
+    padding-bottom: 20px;
+}
+
+.boxes {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.boxes .image {
+    height: 12rem;
+    width: 100%;
+}
+
+.boxes .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.boxes:hover {
+    transform: translateY(-10px);
+}
+
+.boxes .texts {
+    padding: 0px 6px;
+    background: #fff;
+}
+
+.boxes .texts small {
+    font-weight: 800;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.boxes .texts h2 {
+    font-size: 17px;
+    color: #666;
+}
+
+.bestPlaces {
+    margin-top: 3rem;
+    padding: 10px 100px;
+}
+
+.bestPlaces h1 {
+    color: rgb(68, 68, 68);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.allPlaces {
+    display: flex;
+}
+
+.place-boxes {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0 20px;
+}
+
+.place-boxes:first-child {
+    margin-left: 0px;
+}
+
+.place-boxes:last-child {
+    margin-right: 0px;
+}
+
+.place-image {
+    height: 10rem;
+}
+
+.place-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.about {
+    padding: 10px 14px;
+}
+
+.about h5 {
+    font-size: 15px;
+    color: var(--heading-color);
+    margin: 1rem 0;
+}
+
+.about p {
+    font-size: 13px;
+    color: var(--para-color);
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .prev_arrow {
+    position: absolute;
+    top: -52px;
+    right: 80px;
+}
+
+.slider .prev_arrow,
+.slider .next_arrow {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 8px 12px;
+    color: #fff;
+    background: dodgerblue;
+}
+
+.slider .next_arrow {
+    position: absolute;
+    top: -52px;
+    right: 30px;
+}
+
+#about_Place .tour-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .cont-heading {
+    padding: 20px 0;
+}
+
+.row .cont-heading p {
+    font-size: 14px
+}
+
+.book-form {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-form form {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-form form .form-heading {
+    text-align: center;
+}
+
+.book-form form h1 {
+    color: var(--heading-color);
+    margin-bottom: 3rem;
+}
+
+.book-form .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.book-form .inputs label {
+    font-size: 13px;
+    color: #666;
+}
+
+.book-form .inputs input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.book-form .inputs input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.book-form .same-row {
+    display: flex;
+}
+
+.book-form .same-row .inputs:last-child {
+    margin-left: 0.5rem;
+}
+
+.book-form .inputs input[type=submit] {
+    background: orange;
+    color: #fff;
+    font-weight: 550;
+    border: 1px solid rgb(228, 148, 1);
+    cursor: pointer;
+}
+
+.book-form .inputs input[type=submit]:hover {
+    background: rgb(255, 203, 107);
+}
+
+@media only screen and (max-width:500px) {
+    section {
+        padding: 30px 10px;
+    }
+    .img-slider {
+        display: none;
+    }
+    .cont-heading {
+        flex-basis: 100%;
+    }
+    .cont-heading h1 {
+        font-size: 2rem;
+    }
+    .heading h1 {
+        color: #fff;
+        font-size: 3rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #about_Place .tour-heading {
+        width: 100%;
+    }
+    .book-form form {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    #tour-places {
+        margin-top: 1rem;
+        background: #f9f8f7;
+        padding: 40px 23px;
+        padding-bottom: 20px;
+    }
+    .tour-heading h1 {
+        color: #444;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .bestPlaces {
+        margin-top: 3rem;
+        padding: 10px 30px;
+    }
+    .bestPlaces h1 {
+        color: rgb(68, 68, 68);
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .slider .prev_arrow,
+    .slider .next_arrow {
+        display: none;
+    }
+    .infos small {
+        font-size: unset;
+    }
+    .infos ul {
+        margin-top: 0.8rem;
+    }
+}

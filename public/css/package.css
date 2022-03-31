@@ -1,0 +1,141 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+        /* overflow: hidden; */
+    }
+    
+     :root {
+        --main-col: dodgerblue;
+        --text-color-1: #444;
+        --text-color-2: #666;
+        --bg-color-1: #fff;
+        --bg-color-2: #eee;
+        --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        --sec-color: rgba(39, 39, 39, 0.9);
+        --off-white: #888888;
+    }
+    
+    a {
+        color: var(--bg-color-1);
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: .6rem 1rem;
+        font-size: 0.8rem;
+        color: #fff;
+        background: var(--main-col);
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+    
+    .btn a,
+    .btn i {
+        color: #fff;
+    }
+    
+    .btn i {
+        padding-right: 4px;
+    }
+    
+    .btn:hover {
+        letter-spacing: .2rem;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 10rem;
+    }
+    
+    .logo {
+        font-size: 1.3rem;
+    }
+    
+    .logo i {
+        color: var(--main-col);
+    }
+    
+    .logo a {
+        color: var(--text-color-1);
+    }
+    
+    .nav {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+    
+    .nav ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav ul li {
+        margin: 0 1rem;
+        padding: 10px 0;
+    }
+    
+    .about-place {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 8rem;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .place-info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .place-info h4 {
+        font-size: 1.4rem;
+        font-weight: 550;
+        color: var(--text-color-1);
+    }
+    
+    .place-info small {
+        color: var(--text-color-2);
+        font-weight: 550;
+    }
+    
+    .place-info h6 {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: var(--text-color-2);
+    }
+    
+    .place-info h6 span {
+        color: var(--text-color-1);
+        font-weight: 550;
+    }
+    
+    .about-place .btn a {
+        margin: 0 1rem;
+    }
+    
+    .tour-pricing small:first-child {
+        text-transform: uppercase;
+        color: var(--text-color-2);
+        font-weight: 550;
+    }
+    
+    .tour-pricing h3 {
+        color: var(--main-col);
+        font-weight: 550;
+    }
+    
+    .tour-pricing small:last-child {
+        color: var(--text-color-2);
+    }

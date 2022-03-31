@@ -1,0 +1,603 @@
+<%- include('layout/links') -%>
+    <!-- oncontextmenu="return false" , oncopy="return false" , onpaste="return false" -->
+
+    <body>
+
+        <!-- header section starts  -->
+
+        <%- include('layout/nav') -%>
+            <!-- header section ends -->
+
+            <!-- home section starts  -->
+
+            <section class="home" id="home">
+                <div class="content">
+                    <h3 class="add_anim">adventure is worthwhile</h3>
+                    <p>dicover new places with us, adventure awaits</p>
+                    <a href="#" class="btn">discover more</a>
+                </div>
+
+                <div class="controls">
+                    <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+                    <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+                    <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+                    <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+                    <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+                </div>
+
+                <div class="video-container">
+                    <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+                </div>
+            </section>
+
+            <!-- home section ends -->
+
+            <!-- filter form section starts  -->
+
+            <section class="form-container" data-aos="zoom-in">
+
+                <div id="quickBook">
+                    <div class="content">
+                        <div class="wrapper">
+                            <h1>Quick Book</h1>
+                        </div>
+                        <div class="form">
+                            <div class="boxes">
+                                <img src="./images/location.svg" alt="" />
+                                <span>
+                    <small>Choose your location</small>
+                    <select>
+                      <option value="">Select...</option>
+                      <option value="assam">Assam</option>
+                      <option value="assam">Punjab</option>
+                      <option value="assam">Goa</option>
+                      <option value="assam">Rajasthan</option>
+                      <option value="assam">Jammu & Kashmir</option>
+                      <option value="assam">Meghalaya</option>
+                    </select>
+                  </span>
+                            </div>
+                            <div class="boxes">
+                                <img src="./images/calendar-tick.svg" alt="" />
+                                <span>
+                    <small>Arrival Date</small>
+                    <input type="date" />
+                  </span>
+                            </div>
+                            <div class="boxes">
+                                <img src="./images/calendar-remove.svg" alt="" />
+                                <span>
+                    <small>Leaving Date</small>
+                    <input type="date" />
+                  </span>
+                            </div>
+                            <div class="boxes">
+                                <img src="./images/people.svg" alt="" />
+                                <span>
+                    <small>Number of Guests</small>
+                    <input type="number" />
+                  </span>
+                            </div>
+                            <div class="book_btn">
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- filter form section ends -->
+            <!-- -----------------weekend section-------------- -->
+            <section id="weekend-section">
+                <div class="swiper weekend" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/vert-1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/vert-4.jpg" alt=""></div>
+                        <div class="swiper-slide"><video src="./images/vid-3.mp4" alt="" muted autoplay loop/></div>
+                        <div class="swiper-slide"><img src="./images/vert-2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/vert-7.jpg" alt=""></div>
+                        <div class="swiper-slide"><video src="./images/vid-5.mp4" alt="" muted autoplay loop></div>
+                <div class="swiper-slide"><img src="./images/vert-6.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="text-content" data-aos="zoom-in-left">
+            <div class="heading">
+                <h1>How to Spend a <br> weekend?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adip Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, placeat? isicing elit. Voluptates odio impedit blanditiis adipisci excepturi, quia vero vel beatae consequatur earum culpa in eos iste iusto voluptas exercitationem, debitis provident illum.</p>
+            </div>
+            <div class="rate">
+                <h3>15 days tour</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="pricing">
+                <h4>$7666.66</h4>
+                <div class="btn">
+                    <a href="#">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="packages" id="packages">
+
+        <h1 class="heading"> our <span>packages</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-1.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="/package" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-2.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-3.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-4.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-5.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/p-6.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> egypt </h3>
+                </div>
+                <div class="content">
+                    <div class="price"> 290.99 <span>350.99</span> </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.</p>
+                    <a href="#" class="btn"> book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our <span>services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in">
+                <span>01</span>
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>02</span>
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>03</span>
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>04</span>
+                <i class="fas fa-globe"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>05</span>
+                <i class="fas fa-hiking"></i>
+                <h3>new adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in">
+                <span>01</span>
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading"> our <span>pricing</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> basic plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">30</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>10 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> standard plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">50</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>20 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up">
+                <h3> premium plan </h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">90</span>
+                    <span>/mo</span>
+                </div>
+                <ul>
+                    <li>30 days</li>
+                    <li>food and drinks</li>
+                    <li>safty guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- pricing section ends -->
+    <!-- ------Plan trip---- -->
+
+    <section class="plan" id="plan" data-aos="zoom-in-up">
+        <div class="heading">
+            <h1>Plan Your <br> Trip with Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sit voluptatibus ipsa magnam deserunt assumenda voluptate. Sed quisquam ipsam pariatur.</p>
+        </div>
+        <div class="pic-box">
+            <span style="--i:1;"><img src="./images/vert-1.jpg"/></span>
+            <span style="--i:2;"><img src="./images/vert-2.jpg"/></span>
+            <span style="--i:3;"><img src="./images/vert-3.jpg"/></span>
+            <span style="--i:4;"><img src="./images/vert-4.jpg"/></span>
+            <span style="--i:5;"><img src="./images/vert-5.jpg"/></span>
+            <span style="--i:6;"><img src="./images/vert-6.jpg"/></span>
+            <span style="--i:7;"><img src="./images/vert-7.jpg"/></span>
+            <span style="--i:8;"><img src="./images/vert-3.jpg"/></span>
+            <span style="--i:9;"><img src="./images/vert-6.jpg"/></span>
+        </div>
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper-container review-slider" data-aos="zoom-in">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-1.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-2.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-3.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="images/pic-4.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <form action="" data-aos="zoom">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name" data-aos="fade-up">
+                <input type="email" placeholder="email" data-aos="fade-up">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number" data-aos="fade-up">
+                <input type="text" placeholder="subject" data-aos="fade-up">
+            </div>
+
+            <textarea name="" placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+
+            <input type="submit" value="send message" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blog section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-1.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-2.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="images/blog-3.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blog section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> canada </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> packages </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> pricing </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> contact </a>
+                <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contact info</h3>
+                <a href="tel:9101121717"> <i class="fas fa-phone"></i> +91 9101121717 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="mailto:itzraj005@gmail.com"> <i class="far fa-envelope-open"></i> itzraj005@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Nalbari, Assam - 781339 </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/razkumar.kalita"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.instagram.com/the_rajkkalita/"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://wa.me/9101121717"> <i class="fab fa-whatsapp"></i> Whatsapp </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Created by <span>Rajkumar Kalita</span> | &copy; all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+    <!-- -------------scroll to top btn----------------- -->
+    <div class="scroll">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- -------------query form----------- -->
+    <div class="cont-us-btn">
+        <i class="far fa-comment-dots"></i>
+    </div>
+
+    <!-- -------------------query form---------------- -->
+    <div class="q-form">
+        <form action="/askQuery" method="post" onsubmit="return validateQform();" id="qForm">
+            <span class="cross">&times;</span>
+            <div class="form-heading">
+                <h1>Ask Your Query</h1>
+            </div>
+
+            <div class="input-field">
+                <label for="name">Name</label>
+                <input type="text" id="qName" name="qName">
+                <span class="qError"></span>
+            </div>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="qEmail" name="qEmail">
+                <span class="qError"></span>
+            </div>
+            <div class="input-field">
+                <label for="phone">Phone</label>
+                <input type="number" id="qNum" name="qNum">
+                <span class="qError"></span>
+            </div>
+           <div class="input-field text-area">
+               <label for="message">Message</label>
+                <textarea  cols="30" rows="7" id="qMsg" name="qMsg"></textarea>
+                <span class="qError"></span>
+           </div>
+           <div class="btn">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+  <%- include('layout/scripts') -%>
